@@ -79,37 +79,47 @@ Some of the problems below are best addressed using a supervised learning algori
 dataset is available for your algorithm to learn from.
 
 1.  Examine a web page, and classify whether the content on the web page should be considered "child friendly" (e.g., non-pornographic, etc.) or "adult."
+
 Answer: **supervised**
 [A dataset of web pages that have been labeled as "child friendly" or "adult" ]
 
 2. Given data on how 1000 medical patients respond to an experimental drug (such as effectiveness of the treatment, side effects, etc.), discover whether there are different categories or "types" of patients in terms of how they respond to the drug, and if so what these categories are.
+
 Answer: **unsupervised**
 [we group 1000 medical patients into different clusters ]
 
 3. In farming, given data on crop yields over the last 50 years, learn to predict next year's crop yields.
 Answer: **supervised**
+
 [historical data  to predict next year's crop yields ]
 
 4. Given a large dataset of medical records from patients suffering from heart disease, try to learn whether there might be different clusters of such patients for which we might tailor separate treatments.
+
 Answer: **unsupervised**
 
+
 5. Take a collection of 1000 essays written on the US Economy, and find a way to automatically group these essays into a small number of groups of essays that are somehow "similar" or "related". 
+
 Answer: **unsupervised**
 [This is an unsupervised learning/clustering problem (similar to the Google News example in the lectures) ]
 
 6.  Given genetic (DNA) data from a person, predict the odds of him/her developing diabetes over the next 10 years.
+
 Answer: **supervised**
 [we can learn from a labeled dataset comprising different people's genetic data, and labels telling us if they had developed diabetes ]
 
 7. Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown). 
+
 Answer: **supervised**
 [we learn from the labeled data to predict gender ]
 
 8. Examine a large collection of emails that are known to be spam email, to discover if there are sub-types of spam mail. 
+
 Answer: **unsupervised**
 [This can addressed using a clustering (unsupervised learning) algorithm, to cluster spam mail into sub-types ]
 
-9. Examine the statistics of two football teams, and predicting which team will win tomorrow's match (given historical data of teams' wins/losses to learn from). 
+9. Examine the statistics of two football teams, and predicting which team will win tomorrow's match (given historical data of teams' wins/losses to learn from).
+ 
 Answer:  **supervised**
 [we learn from historical records to make win/loss predictions. ]
 
